@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardItem{
+    height: 460px;
+    width: 290px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.cardItem .cardImg{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cardItem .cardImg img{
+    transform: scale(0.65);
+}
+
+.cardDescription{
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+}
+
+.cardDescription .title{
+    font-size: 21px;
+    margin: 6px 0;
+}
+
+.cardDescription .description{
+    display: none;
+}
+
+.cardDescription .cant{
+    color: black;
+    font-size: 16px;
+    margin: 6px 0;
+
+}
+
+.cardDescription .precio{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+.buttons{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons #detalles{   
+    height: 55px;
+    width: 75%;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.buttons #detalles:hover{
+    background-color: rgb(185, 1, 1);
+}
+
+.buttons #addCart{
+    background-color: red;
+    height: 55px;
+    width: 55px;
+    border-radius: 20%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons #addCart img{
+    transform: scale(0.7);
+}
+
+.buttons #detalleshover, .buttons #addCart:hover{
+    background-color: rgb(185, 1, 1);
+}
+
+
+
+
+
+
+
